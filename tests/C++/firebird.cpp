@@ -148,4 +148,3 @@ bool Firebird::query( const char* statement, std::vector< std::vector<std::strin
 
     return true;
 }
-
