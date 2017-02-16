@@ -1,7 +1,7 @@
 #ifndef FIREBIRD_H
 #define FIREBIRD_H
 
-#define IBPP_LINUX
+//#define IBPP_LINUX defined in .pro
 
 #ifdef IBPP_WINDOWS //убедиться в необходимости
     #include "../../core/_ibpp_win.cpp"

@@ -7,7 +7,7 @@
 #include <QMessageBox>
 #include <QDebug>
 
-#include "firebird.h"
+#include "qt-firebird.h"
 
 Firebird::Firebird()
 {

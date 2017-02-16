@@ -7,7 +7,7 @@
     #include "_ibpp_win.cpp"
 #endif
 #ifdef IBPP_LINUX
-    #include "ibpp/core/ibpp.h"
+    #include "../../core/ibpp.h"
 #endif
 
 #include <vector>
