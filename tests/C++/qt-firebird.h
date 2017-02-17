@@ -16,9 +16,7 @@ class Firebird
 {
 public:
     Firebird();
-    ~Firebird() {
-        db->Disconnect();
-    }
+    ~Firebird();
 
     bool query(QString &);
     bool query(QString &, QList<int>*);
